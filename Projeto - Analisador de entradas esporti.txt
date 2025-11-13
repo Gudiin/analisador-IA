@@ -1,0 +1,4 @@
+Projeto - Analisador de entradas esportivas
+    Faltas ( cometidas / Sofridas) - Over 0.5 e 1.5
+    Escanteios - Over 
+    Cartões - Ambos recebem, overs 
