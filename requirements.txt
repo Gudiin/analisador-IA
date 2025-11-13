@@ -2,7 +2,7 @@
 # Dependências do Sports Analytics System
 
 # Core Data Science
-pandas==2.1.4
+pandas==2.3.3
 numpy==1.26.3
 scipy==1.11.4
 

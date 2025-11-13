@@ -1,0 +1,17 @@
+2025-11-13 16:32:46 [ERROR] __main__ [main_orchestrator.py:53]: Arquivo leagues.json não encontrado
+2025-11-13 16:42:42 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Standard Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:42:51 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Miscellaneous Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:43:02 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Standard Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:43:11 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Miscellaneous Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:43:21 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Standard Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:43:31 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Miscellaneous Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:43:41 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Standard Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:43:51 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Miscellaneous Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:44:01 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Standard Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:44:11 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Miscellaneous Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:44:21 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Standard Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:44:31 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Miscellaneous Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:44:41 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Standard Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:44:51 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Miscellaneous Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:45:01 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Standard Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.
+2025-11-13 16:45:11 [ERROR] scraper_advanced [scraper_advanced.py:105]: Erro ao extrair tabela 'Miscellaneous Stats': Missing optional dependency 'lxml'.  Use pip or conda to install lxml.

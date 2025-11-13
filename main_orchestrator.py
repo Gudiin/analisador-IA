@@ -18,6 +18,11 @@ from scraper_advanced import AdvancedScraper
 from analysis_engine import AnalysisEngine
 from backtesting import BacktestingEngine, KellyCriterion
 from statistical_models import EloRatingSystem
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+leagues_file = BASE_DIR / "leagues.json"
+
 
 # Configurar logging
 logging.config.dictConfig(config.LOGGING_CONFIG)
@@ -47,21 +52,23 @@ class SportsAnalyticsPipeline:
             Tupla (nome_da_liga, url_da_liga)
         """
         try:
-            leagues_file = Path('../API/leagues.json')
-            
+            # Caminho dinâmico baseado no diretório do projeto
+            BASE_DIR = Path(__file__).resolve().parent
+            leagues_file = BASE_DIR / "leagues.json"
+
             if not leagues_file.exists():
-                logger.error("Arquivo leagues.json não encontrado")
+                logger.error(f"Arquivo leagues.json não encontrado no caminho: {leagues_file}")
                 return None, None
-            
+
             with open(leagues_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-            
+
             paises = data.get('paises', [])
-            
+
             if not paises:
                 logger.error("Nenhum país encontrado em leagues.json")
                 return None, None
-            
+
             # Menu de países
             print("\n" + "="*60)
             print("SELECIONE O PAÍS")
@@ -69,7 +76,7 @@ class SportsAnalyticsPipeline:
             for i, pais in enumerate(paises, 1):
                 print(f"[{i}] {pais['nome']}")
             print("[0] Sair")
-            
+
             try:
                 choice = int(input("\nDigite o número: "))
                 if choice == 0:
@@ -78,17 +85,17 @@ class SportsAnalyticsPipeline:
             except (ValueError, IndexError):
                 logger.error("Seleção inválida")
                 return None, None
-            
+
             # Menu de competições
             competicoes = selected_pais.get('competicoes', [])
-            
+
             print(f"\n{'='*60}")
             print(f"SELECIONE A COMPETIÇÃO - {selected_pais['nome']}")
             print("="*60)
             for i, comp in enumerate(competicoes, 1):
                 print(f"[{i}] {comp['nome']}")
             print("[0] Voltar")
-            
+
             try:
                 choice = int(input("\nDigite o número: "))
                 if choice == 0:
@@ -97,9 +104,9 @@ class SportsAnalyticsPipeline:
             except (ValueError, IndexError):
                 logger.error("Seleção inválida")
                 return None, None
-            
+
             return selected_comp['nome'], selected_comp['url']
-            
+
         except Exception as e:
             logger.error(f"Erro ao carregar leagues.json: {e}")
             return None, None
