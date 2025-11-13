@@ -1,0 +1,134 @@
+{
+  "paises": [
+    {
+      "nome": "Inglaterra",
+      "competicoes": [
+        {
+          "nome": "Premier League (Liga principal)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/9/Premier-League-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "Espanha",
+      "competicoes": [
+        {
+          "nome": "La Liga (Liga principal)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/12/La-Liga-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "ItÃ¡lia",
+      "competicoes": [
+        {
+          "nome": "Serie A (Liga principal)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/11/Serie-A-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "Alemanha",
+      "competicoes": [
+        {
+          "nome": "Bundesliga (Liga principal)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/20/Bundesliga-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "FranÃ§a",
+      "competicoes": [
+        {
+          "nome": "Ligue 1 (Liga principal)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/13/Ligue-1-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "Brasil",
+      "competicoes": [
+        {
+          "nome": "BrasileirÃ£o SÃ©rie A",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/24/Serie-A-Stats"
+        },
+        {
+          "nome": "BrasileirÃ£o SÃ©rie B",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/38/Serie-B-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "Argentina",
+      "competicoes": [
+        {
+          "nome": "Liga Profesional",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/21/Primera-Division-Stats"
+        },
+        {
+          "nome": "Copa de la Liga",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/905/Copa-de-la-Liga-Profesional-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "Estados Unidos e CanadÃ¡",
+      "competicoes": [
+        {
+          "nome": "MLS (Major League Soccer)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/22/Major-League-Soccer-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "Holanda (PaÃ­ses Baixos)",
+      "competicoes": [
+        {
+          "nome": "Eredivisie (Liga principal)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/23/Eredivisie-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "JapÃ£o",
+      "competicoes": [
+        {
+          "nome": "J1 League (Liga principal)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/25/J1-League-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "MÃ©xico",
+      "competicoes": [
+        {
+          "nome": "Liga MX (Liga principal)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/31/Liga-MX-Stats"
+        }
+      ]
+    },
+    {
+      "nome": "ArÃ¡bia Saudita",
+      "competicoes": [
+        {
+          "nome": "Saudi Pro League (Liga principal)",
+          "tipo": "league",
+          "url": "https://fbref.com/en/comps/70/Saudi-Pro-League-Stats"
+        }
+      ]
+    }
+  ]
+}
